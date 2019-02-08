@@ -3,8 +3,8 @@ javascript: /*! jQuery v3.3.1 | (c) JS Foundation and other contributors | jquer
 
 
 console.log('jquery include ok');
-/*--------------¿ÀÅä Å×½ºÆ® ·ÎÁ÷----------*/
-/*-----------³×ÀÌ¹ö»çÀÌÆ®¿¡¼­ ÄÑ¸é ¹®Á¦¾øÀÌ µÊ https://www.naver.com/-------------*/
+/*--------------ì˜¤í†  í…ŒìŠ¤íŠ¸ ë¡œì§----------*/
+/*-----------ë„¤ì´ë²„ì‚¬ì´íŠ¸ì—ì„œ ì¼œë©´ ë¬¸ì œì—†ì´ ë¨ https://www.naver.com/-------------*/
 setTimeout(function(){ 
 myWindow=window.open('https://dict.naver.com/','m1','width=800,height=500');
 },2000);
