@@ -1,0 +1,1 @@
+javascript: location.href = 'https://papago.naver.net/website?locale=ko&source=en&target=ko&url='+ location.href;
