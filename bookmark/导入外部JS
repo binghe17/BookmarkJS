@@ -1,0 +1,12 @@
+//===========================================收藏夹工具==============================================
+
+//导入外部jquery.js
+javascript:(function(){var s=window.document.createElement("script"); s.src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"; window.document.head.appendChild(s); s.onload=function(){var t="jQuery ready!";console.log(t);$('<div>').text(t).prependTo('body').css({background:'#ccc','font-size':'32pt'}).fadeOut(4000)} })();
+
+//导入外部localforage.js
+javascript:(function(){var s=window.document.createElement("script"); s.src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.2/localforage.min.js"; window.document.head.appendChild(s); s.onload=function(){var t="LocalForage ready!";console.log(t);$('<div>').text(t).prependTo('body').css({background:'#ccc','font-size':'32pt'}).fadeOut(4000)} })();
+
+//导入外部JS文件（输入框方式）
+javascript:(function(src){let s=window.document.createElement("script"); s.src=src; window.document.head.appendChild(s); s.onload=function(){ let l=window.document.createElement('div');l.textContent='[Done] '+src;window.document.body.appendChild(l);l.style='position:fixed;right:0;top:0;background:#ff0;font-size:3em;z-Index:99999;'; setTimeout(()=>l.remove(),3000); }})(prompt('输入.js文件的URL地址','https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'));
+
+
